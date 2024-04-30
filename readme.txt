@@ -1,8 +1,7 @@
 If the levels are ordered, you could use numerical encoding ("label encoding", but assuring that the numbers are assigned in correct order.)
 If not ordered, you need dummy variables.
 
-to-do:
-- check for correlations between variables (heatmap, etc)
+#TODO check for correlations between variables (heatmap, etc)
 
 Type_encoded x Level_encoded
 correlation_coefficient, p_value = pearsonr(data['Type_encoded'], data['Level_encoded'])
